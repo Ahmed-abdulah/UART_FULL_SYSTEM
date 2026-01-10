@@ -5,3 +5,7 @@
 
 ### Testing results of receiver
 <img width="426" height="177" alt="Screenshot 2026-01-06 010958" src="https://github.com/user-attachments/assets/8bece111-f8cc-4da7-8392-3ac48ce0918a" />
+
+### ALU results
+<img width="587" height="868" alt="image" src="https://github.com/user-attachments/assets/f781bd89-ab4d-4951-8fe9-dd6ca1545694" />
+
