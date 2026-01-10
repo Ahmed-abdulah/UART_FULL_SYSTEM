@@ -14,7 +14,7 @@ module RegFile_tb;
   logic [ADDR-1:0]      Address;
   logic [WIDTH-1:0]     WrData;
   logic [WIDTH-1:0]     RdData;
-  logic                 RdD;
+  logic                 RdData_Valid;
   logic [WIDTH-1:0]     REG0, REG1, REG2, REG3;
   
   // DUT instantiation
@@ -30,7 +30,7 @@ module RegFile_tb;
     .Address(Address),
     .WrData(WrData),
     .RdData(RdData),
-    .RdD(RdD),
+    .RdData_Valid(RdData_Valid),
     .REG0(REG0),
     .REG1(REG1),
     .REG2(REG2),
@@ -110,7 +110,7 @@ module RegFile_tb;
     RdEn    = 1;
     @(posedge CLK);
     #1;
-    if (RdD)
+    if (RdData_Valid)
       $display("Read:  Addr=0x%0h, Data=0x%0h (Valid)", addr, RdData);
     else
       $display("Read:  Addr=0x%0h, Data=Invalid", addr);

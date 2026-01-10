@@ -45,7 +45,7 @@ module ALU
         NAND: ALU_OUT_Comb = {8'b0 , ~(A & B)};
         NOR:  ALU_OUT_Comb = {8'b0 , ~(A | B)};
         XOR:  ALU_OUT_Comb = {8'b0 , A ^ B};
-        XNOR: ALU_OUT_Comb = {8'b0 ,n~(A ^ B)};
+        XNOR: ALU_OUT_Comb = {8'b0 , ~(A ^ B)};
         EQ:   ALU_OUT_Comb = (A == B) ? 1'b1 :1'b0;
         GT:   ALU_OUT_Comb = (A > B)  ? 'd2 : '0;
         LT:   ALU_OUT_Comb = (A < B)  ? 'd3 : '0;
@@ -59,4 +59,3 @@ module ALU
     end
   end
 
-endmodule

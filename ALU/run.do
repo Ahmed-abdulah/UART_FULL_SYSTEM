@@ -6,6 +6,4 @@ vlog -sv ALU_tb.sv
 
 vsim -voptargs=+acc work.ALU_tb
 
-
-
 run -all
