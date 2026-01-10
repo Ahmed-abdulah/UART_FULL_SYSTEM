@@ -9,3 +9,7 @@
 ### ALU results
 <img width="587" height="868" alt="image" src="https://github.com/user-attachments/assets/f781bd89-ab4d-4951-8fe9-dd6ca1545694" />
 
+### Reg File results
+<img width="531" height="469" alt="image" src="https://github.com/user-attachments/assets/b6c87dcc-567a-48e7-8b72-8edfb07f8eb6" />
+
+
