@@ -1,0 +1,361 @@
+Reading pref.tcl
+
+# 2021.1
+
+# do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vmap 2021.1 Lib Mapping Utility 2021.01 Jan 19 2021
+# vmap work work 
+# Modifying modelsim.ini
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:53 on Jan 23,2026
+# vlog -sv ../ALU/alu_pkg.sv 
+# -- Compiling package alu_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 15:28:53 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:53 on Jan 23,2026
+# vlog -sv ../UART_RX/UART_rx_pkg.sv 
+# -- Compiling package UART_rx_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 15:28:53 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# === Compiling Basic Modules ===
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:53 on Jan 23,2026
+# vlog -sv ../ALU/ALU.sv 
+# -- Compiling module ALU
+# -- Importing package alu_pkg
+# 
+# Top level modules:
+# 	ALU
+# End time: 15:28:53 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:53 on Jan 23,2026
+# vlog -sv ../CLK_DIV/clk_div.sv 
+# -- Compiling module ClkDiv
+# 
+# Top level modules:
+# 	ClkDiv
+# End time: 15:28:53 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:53 on Jan 23,2026
+# vlog -sv ../CLK_DIV/mux_div.sv 
+# -- Compiling module CLKDIV_MUX
+# 
+# Top level modules:
+# 	CLKDIV_MUX
+# End time: 15:28:53 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:53 on Jan 23,2026
+# vlog -sv ../RegFile/RegFile.sv 
+# -- Compiling module RegFile
+# 
+# Top level modules:
+# 	RegFile
+# End time: 15:28:53 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# === Compiling Sync Modules ===
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:53 on Jan 23,2026
+# vlog -sv ../SYNC/Data_SYNC.sv 
+# -- Compiling module DATA_SYNC
+# 
+# Top level modules:
+# 	DATA_SYNC
+# End time: 15:28:53 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:53 on Jan 23,2026
+# vlog -sv ../SYNC/PULSE_GEN.sv 
+# -- Compiling module PULSE_GEN
+# 
+# Top level modules:
+# 	PULSE_GEN
+# End time: 15:28:53 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:53 on Jan 23,2026
+# vlog -sv ../TOP/rst_sync.sv 
+# -- Compiling module RST_SYNC
+# 
+# Top level modules:
+# 	RST_SYNC
+# End time: 15:28:53 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# === Compiling FIFO ===
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:53 on Jan 23,2026
+# vlog -sv ../FIFO/async_FIFO.sv 
+# -- Compiling module Async_fifo
+# -- Compiling module fifo_mem
+# -- Compiling module fifo_rd
+# -- Compiling module fifo_wr
+# -- Compiling module BIT_SYNC
+# 
+# Top level modules:
+# 	Async_fifo
+# End time: 15:28:53 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# === Compiling TOP Modules ===
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:53 on Jan 23,2026
+# vlog -sv ../TOP/CLK_GATE.sv 
+# -- Compiling module CLK_GATE
+# 
+# Top level modules:
+# 	CLK_GATE
+# End time: 15:28:53 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:53 on Jan 23,2026
+# vlog -sv ../TOP/MUX.sv 
+# -- Compiling module mux2X1
+# 
+# Top level modules:
+# 	mux2X1
+# End time: 15:28:53 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# === Compiling UART RX ===
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:53 on Jan 23,2026
+# vlog -sv ../UART_RX/data_sampling.sv 
+# -- Compiling module data_sampling
+# 
+# Top level modules:
+# 	data_sampling
+# End time: 15:28:54 on Jan 23,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:54 on Jan 23,2026
+# vlog -sv ../UART_RX/deserializer.sv 
+# -- Compiling module deserializer
+# 
+# Top level modules:
+# 	deserializer
+# End time: 15:28:54 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:54 on Jan 23,2026
+# vlog -sv ../UART_RX/edge_bit_counter.sv 
+# -- Compiling module edge_bit_counter
+# 
+# Top level modules:
+# 	edge_bit_counter
+# End time: 15:28:54 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:54 on Jan 23,2026
+# vlog -sv ../UART_RX/parity_clk.sv 
+# -- Compiling module parity_clk
+# 
+# Top level modules:
+# 	parity_clk
+# End time: 15:28:54 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:54 on Jan 23,2026
+# vlog -sv ../UART_RX/start_clk.sv 
+# -- Compiling module start_clk
+# 
+# Top level modules:
+# 	start_clk
+# End time: 15:28:54 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:54 on Jan 23,2026
+# vlog -sv ../UART_RX/stop_clk.sv 
+# -- Compiling module stop_clk
+# 
+# Top level modules:
+# 	stop_clk
+# End time: 15:28:54 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:54 on Jan 23,2026
+# vlog -sv ../UART_RX/uart_rx_fsm.sv 
+# -- Compiling package uart_rx_fsm_sv_unit
+# -- Importing package UART_rx_pkg
+# -- Compiling module uart_rx_fsm
+# 
+# Top level modules:
+# 	uart_rx_fsm
+# End time: 15:28:54 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:54 on Jan 23,2026
+# vlog -sv ../UART_RX/UART_RX.sv 
+# -- Compiling module UART_RX
+# 
+# Top level modules:
+# 	UART_RX
+# End time: 15:28:54 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# === Compiling UART TX - mux ===
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:54 on Jan 23,2026
+# vlog -sv ../UART_TX/mux.sv 
+# -- Compiling module mux
+# 
+# Top level modules:
+# 	mux
+# End time: 15:28:54 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# === Compiling UART TX - parity_calc ===
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:54 on Jan 23,2026
+# vlog -sv ../UART_TX/parity_calc.sv 
+# -- Compiling module parity_calc
+# 
+# Top level modules:
+# 	parity_calc
+# End time: 15:28:54 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# === Compiling UART TX - serializer ===
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:54 on Jan 23,2026
+# vlog -sv ../UART_TX/serializer.sv 
+# -- Compiling module serializer
+# 
+# Top level modules:
+# 	serializer
+# End time: 15:28:54 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# === Compiling UART TX - tx_fsm ===
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:54 on Jan 23,2026
+# vlog -sv ../UART_TX/tx_fsm.sv 
+# -- Compiling module tx_fsm
+# 
+# Top level modules:
+# 	tx_fsm
+# End time: 15:28:54 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# === Compiling UART TX - UART_TX ===
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:54 on Jan 23,2026
+# vlog -sv ../UART_TX/UART_TX.sv 
+# -- Compiling module UART_TX
+# 
+# Top level modules:
+# 	UART_TX
+# End time: 15:28:54 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# === Compiling Control ===
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:54 on Jan 23,2026
+# vlog -sv ../Control/System_Control.sv 
+# -- Compiling module SYS_CTRL
+# 
+# Top level modules:
+# 	SYS_CTRL
+# End time: 15:28:54 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# === Compiling UART TOP ===
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:54 on Jan 23,2026
+# vlog -sv ../UART_TOP/UART.sv 
+# -- Compiling module UART
+# 
+# Top level modules:
+# 	UART
+# End time: 15:28:55 on Jan 23,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# === Compiling SYSTEM TOP ===
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:55 on Jan 23,2026
+# vlog -sv ../TOP/SYSTEM_TOP.sv 
+# -- Compiling module SYS_TOP
+# 
+# Top level modules:
+# 	SYS_TOP
+# End time: 15:28:55 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# === COMPILATION COMPLETE ===
+# === Compiling Testbench ===
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:28:55 on Jan 23,2026
+# vlog SYS_TOP_TB.sv 
+# -- Compiling module SYS_TOP_TBBBB
+# 
+# Top level modules:
+# 	SYS_TOP_TBBBB
+# End time: 15:28:55 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# === Starting Simulation ===
+# vsim -c SYS_TOP_TBBBB 
+# Start time: 15:28:55 on Jan 23,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.alu_pkg(fast)
+# Loading work.UART_rx_pkg(fast)
+# Loading work.uart_rx_fsm_sv_unit(fast)
+# Loading work.SYS_TOP_TBBBB(fast)
+# === Running Test ===
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /SYS_TOP_TBBBB/DUT/U0_UART/#implicit#unique__16 File: ../UART_RX/parity_clk.sv Line: 16
+# Write Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=0  PRESCALE=32  
+# Read Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=0  PRESCALE=32  
+# ALU Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=0  PRESCALE=32  
+# ALU Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=0  PRESCALE=32  
+# Write Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=1  PRESCALE=32  
+# Read Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=1  PRESCALE=32  
+# ALU Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=1  PRESCALE=32  
+# ALU Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=1  PRESCALE=32  
+# Write Operation is succeeded with configurations PARITY_ENABLE=0 PARITY_TYPE=0  PRESCALE=32  
+# Read Operation is succeeded with configurations PARITY_ENABLE=0 PARITY_TYPE=0  PRESCALE=32  
+# ALU Operation is succeeded with configurations PARITY_ENABLE=0 PARITY_TYPE=0  PRESCALE=32  
+# ALU Operation is succeeded with configurations PARITY_ENABLE=0 PARITY_TYPE=0  PRESCALE=32  
+# Write Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=0  PRESCALE=16  
+# Read Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=0  PRESCALE=16  
+# ALU Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=0  PRESCALE=16  
+# ALU Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=0  PRESCALE=16  
+# Write Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=1  PRESCALE=16  
+# Read Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=1  PRESCALE=16  
+# ALU Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=1  PRESCALE=16  
+# ALU Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=1  PRESCALE=16  
+# Write Operation is succeeded with configurations PARITY_ENABLE=0 PARITY_TYPE=0  PRESCALE=16  
+# Read Operation is succeeded with configurations PARITY_ENABLE=0 PARITY_TYPE=0  PRESCALE=16  
+# ALU Operation is succeeded with configurations PARITY_ENABLE=0 PARITY_TYPE=0  PRESCALE=16  
+# ALU Operation is succeeded with configurations PARITY_ENABLE=0 PARITY_TYPE=0  PRESCALE=16  
+# Write Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=0  PRESCALE= 8  
+# Read Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=0  PRESCALE= 8  
+# ALU Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=0  PRESCALE= 8  
+# ALU Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=0  PRESCALE= 8  
+# Write Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=1  PRESCALE= 8  
+# Read Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=1  PRESCALE= 8  
+# ALU Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=1  PRESCALE= 8  
+# ALU Operation is succeeded with configurations PARITY_ENABLE=1 PARITY_TYPE=1  PRESCALE= 8  
+# Write Operation is succeeded with configurations PARITY_ENABLE=0 PARITY_TYPE=0  PRESCALE= 8  
+# Read Operation is succeeded with configurations PARITY_ENABLE=0 PARITY_TYPE=0  PRESCALE= 8  
+# ALU Operation is succeeded with configurations PARITY_ENABLE=0 PARITY_TYPE=0  PRESCALE= 8  
+# ALU Operation is succeeded with configurations PARITY_ENABLE=0 PARITY_TYPE=0  PRESCALE= 8  
+# ** Note: $stop    : SYS_TOP_TB.sv(439)
+#    Time: 16514862454 ps  Iteration: 0  Instance: /SYS_TOP_TBBBB
+# Break at SYS_TOP_TB.sv line 439
+# Stopped at SYS_TOP_TB.sv line 439
+# End time: 15:29:00 on Jan 23,2026, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 1

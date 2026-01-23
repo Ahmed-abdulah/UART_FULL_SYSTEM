@@ -1,0 +1,60 @@
+Reading pref.tcl
+
+# 2021.1
+
+# vsim -c -do "run -all; quit" work.tb 
+# Start time: 03:43:09 on Jan 23,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb(fast)
+# run -all
+# 
+# === TEST 1: RF WRITE COMMAND ===
+# Time=65 Sent RF_WRITE_CMD
+# Time=85 Sent Address=0x05
+# Time=105 Sent Data=0xA3
+#   RF Write: Addr=5 Data=a3
+# 
+# === TEST 2: RF READ COMMAND ===
+# Time=145 Sent RF_READ_CMD
+# Time=165 Sent Address=0x05
+#   RF Read: Addr=5
+#   UART TX: Data=a3
+# 
+# === TEST 3: ALU WITH OPERANDS ===
+# Time=225 Sent ALU_W_OP_CMD
+# Time=245 Sent OperandA=0x0A
+#   Write to RF[0]: Data=0a
+# Time=265 Sent OperandB=0x05
+#   Write to RF[1]: Data=05
+# Time=285 Sent ALU_FUN=0x0 (ADD)
+#   ALU Enabled: FUN=0
+#   UART TX Byte1=0f
+#   UART TX Byte2=00
+# 
+# === TEST 4: ALU WITHOUT OPERANDS ===
+# Time=365 Sent ALU_WN_OP_CMD
+# Time=385 Sent ALU_FUN=0x1 (SUB)
+#   ALU Enabled: FUN=1
+#   UART TX Byte1=05
+#   UART TX Byte2=00
+# 
+# === TEST COMPLETED ===
+# ** Note: $finish    : tb.sv(145)
+#    Time: 475 ns  Iteration: 1  Instance: /tb
+# End time: 03:43:14 on Jan 23,2026, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0

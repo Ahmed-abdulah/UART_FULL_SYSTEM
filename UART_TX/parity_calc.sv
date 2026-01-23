@@ -25,10 +25,12 @@ module parity_calc #(
         if (!RST) begin
             parity <= 1'b0;
         end else if (parity_enable) begin
-            unique case (parity_type)
-                1'b0: parity <= ^data_reg;
-                1'b1: parity <= ~^data_reg;
-            endcase
+            if (parity_type)
+                parity <= ~^data_reg;
+            else
+                parity <= ^data_reg;
+        end else begin
+            parity <= 1'b0;
         end
     end
 

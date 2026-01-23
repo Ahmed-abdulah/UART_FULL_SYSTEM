@@ -1,7 +1,7 @@
 module RegFile #(
-  parameter int WIDTH = 8,
-  parameter int DEPTH = 16,
-  parameter int ADDR  = 4
+  parameter WIDTH = 8,
+  parameter DEPTH = 16,
+  parameter ADDR  = 4
 )(
   input  logic                 CLK,
   input  logic                 RST,

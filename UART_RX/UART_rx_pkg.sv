@@ -1,6 +1,6 @@
 package UART_rx_pkg;
   
-  parameter int DATA_WIDTH = 8;
+  parameter DATA_WIDTH = 8;
   
   typedef enum logic [2:0] {
     IDLE     = 3'b000,

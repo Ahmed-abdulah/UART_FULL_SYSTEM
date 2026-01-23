@@ -1,8 +1,8 @@
 module ALU 
   import alu_pkg::*;
 #(
-  parameter int OPER_WIDTH = 8,
-  parameter int OUT_WIDTH  = OPER_WIDTH * 2
+  parameter OPER_WIDTH = 8,
+  parameter OUT_WIDTH  = OPER_WIDTH * 2
 )(
   input  logic [OPER_WIDTH-1:0] A,
   input  logic [OPER_WIDTH-1:0] B,
@@ -58,4 +58,4 @@ module ALU
       OUT_VALID_Comb = '0;
     end
   end
-
+endmodule

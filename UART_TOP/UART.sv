@@ -1,5 +1,5 @@
 module UART #(
-    parameter int DATA_WIDTH = 8
+    parameter DATA_WIDTH = 8
 ) (
     input  logic                     RST,
     input  logic                     TX_CLK,
