@@ -1,5 +1,9 @@
 # UART_FULL_SYSTEM
 
+## FULL SYSTEM TESTING RESULTS
+<img width="1179" height="773" alt="image" src="https://github.com/user-attachments/assets/f2b28188-9915-4f92-b57b-f0bd4f94853a" />
+
+
 ### testing of the transmitter
 <img width="299" height="58" alt="image" src="https://github.com/user-attachments/assets/73d02588-d2a0-42de-b28d-2b55ac019efc" />
 
