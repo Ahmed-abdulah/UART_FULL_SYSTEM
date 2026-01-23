@@ -4,6 +4,21 @@
 <img width="1179" height="773" alt="image" src="https://github.com/user-attachments/assets/f2b28188-9915-4f92-b57b-f0bd4f94853a" />
 
 
+## USING SYSTEMVRILOG ADDED FEATURES
+
+| Feature | SystemVerilog Syntax | Benefit |
+|---------|---------------------|---------|
+| Data type | `logic` | Unified, simpler |
+| Sequential blocks | `always_ff` | Intent-revealing |
+| Combinational blocks | `always_comb` | Better checking |
+| Fill patterns | `'0` | Auto-sizing |
+| Constants | `package`, `enum` | Type-safe, organized |
+| State machines | `enum` types | Readable, safe |
+| Array iteration | `foreach` | Cleaner, safer |
+| Case statements | `unique case` | Bug detection |
+| Type specification | `parameter int` | Explicit typing |
+
+
 ### testing of the transmitter
 <img width="299" height="58" alt="image" src="https://github.com/user-attachments/assets/73d02588-d2a0-42de-b28d-2b55ac019efc" />
 
